@@ -1,9 +1,9 @@
 import { app } from '../PixiApp';
-import { MutableRefObject, useEffect, useRef } from 'react';
+import { useEffect, useRef } from 'react';
 
 export default function PixiContainer() {
 
-    const ref: MutableRefObject<HTMLDivElement | null> = useRef(null);
+    const ref = useRef<HTMLDivElement>(null);
 
     useEffect(() => {
         const container = ref.current;

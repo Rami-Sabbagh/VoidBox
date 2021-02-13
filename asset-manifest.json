@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/VoidBox/static/css/main.0427e54f.chunk.css",
-    "main.js": "/VoidBox/static/js/main.30780c57.chunk.js",
-    "main.js.map": "/VoidBox/static/js/main.30780c57.chunk.js.map",
+    "main.js": "/VoidBox/static/js/main.f9afc0f9.chunk.js",
+    "main.js.map": "/VoidBox/static/js/main.f9afc0f9.chunk.js.map",
     "runtime-main.js": "/VoidBox/static/js/runtime-main.5e3a6ce6.js",
     "runtime-main.js.map": "/VoidBox/static/js/runtime-main.5e3a6ce6.js.map",
     "static/css/2.ae97d00b.chunk.css": "/VoidBox/static/css/2.ae97d00b.chunk.css",
-    "static/js/2.6aee93d8.chunk.js": "/VoidBox/static/js/2.6aee93d8.chunk.js",
-    "static/js/2.6aee93d8.chunk.js.map": "/VoidBox/static/js/2.6aee93d8.chunk.js.map",
+    "static/js/2.1bfd17c0.chunk.js": "/VoidBox/static/js/2.1bfd17c0.chunk.js",
+    "static/js/2.1bfd17c0.chunk.js.map": "/VoidBox/static/js/2.1bfd17c0.chunk.js.map",
     "static/js/3.edd912ad.chunk.js": "/VoidBox/static/js/3.edd912ad.chunk.js",
     "static/js/3.edd912ad.chunk.js.map": "/VoidBox/static/js/3.edd912ad.chunk.js.map",
     "index.html": "/VoidBox/index.html",
     "static/css/2.ae97d00b.chunk.css.map": "/VoidBox/static/css/2.ae97d00b.chunk.css.map",
     "static/css/main.0427e54f.chunk.css.map": "/VoidBox/static/css/main.0427e54f.chunk.css.map",
-    "static/js/2.6aee93d8.chunk.js.LICENSE.txt": "/VoidBox/static/js/2.6aee93d8.chunk.js.LICENSE.txt"
+    "static/js/2.1bfd17c0.chunk.js.LICENSE.txt": "/VoidBox/static/js/2.1bfd17c0.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.5e3a6ce6.js",
     "static/css/2.ae97d00b.chunk.css",
-    "static/js/2.6aee93d8.chunk.js",
+    "static/js/2.1bfd17c0.chunk.js",
     "static/css/main.0427e54f.chunk.css",
-    "static/js/main.30780c57.chunk.js"
+    "static/js/main.f9afc0f9.chunk.js"
   ]
 }

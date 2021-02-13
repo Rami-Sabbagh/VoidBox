@@ -1,9 +1,13 @@
-import React from 'react';
+import './App.css';
+
+import MainPanel from './components/MainPanel';
+import SidePanel from './components/SidePanel';
 
 function App() {
-	return (
-		<p>Hello World!</p>
-	);
+	return (<>
+		<MainPanel />
+		<SidePanel />
+	</>);
 }
 
 export default App;

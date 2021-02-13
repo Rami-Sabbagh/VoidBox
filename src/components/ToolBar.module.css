@@ -1,0 +1,25 @@
+.container {
+    width: 100%;
+    box-sizing: border-box;
+
+    display: flex;
+}
+
+.container button {
+    padding: 5px;
+    margin: 2px;
+
+    background: none;
+    border: none;
+    border-radius: 5px;
+
+    display: flex;
+}
+
+.container button:hover {
+    background: rgb(255, 255, 255, 0.1);
+}
+
+.container button:active {
+    background: rgba(255, 255, 255, 0.2);
+}

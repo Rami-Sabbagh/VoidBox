@@ -27,7 +27,7 @@ export function spawnBox(x: number, y: number, width: number, height: number, is
     const graphics = new PIXI.Graphics();
 
     graphics.beginFill(0, 0);
-    graphics.lineStyle(3, 0xFFFFFF);
+    graphics.lineStyle(3, isStatic ? 0xFCBF18 : 0xFFFFFF);
     graphics.drawRect(- width / 2, - height / 2, width, height);
     graphics.endFill();
 

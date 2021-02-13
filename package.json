@@ -1,5 +1,6 @@
 {
   "name": "voidbox",
+  "homepage": "https://rami-sabbagh.github.io/VoidBox",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

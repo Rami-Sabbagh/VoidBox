@@ -1,14 +1,12 @@
 import { creatorOptions } from '../PixiApp';
+import CheckBox from './CheckBox';
 
 function toggleStatic() {
     creatorOptions.static = !creatorOptions.static;
 }
 
 export default function SidePanel() {
-    
-
     return (<div className="side-panel">
-        <input type="checkbox" name="static" onChange={toggleStatic}/>
-        <label htmlFor="static">{' '}Spawn static boxes</label>
+        <CheckBox id="spawnStatic" onToggle={toggleStatic}>Make object static</CheckBox>
     </div>);
 }

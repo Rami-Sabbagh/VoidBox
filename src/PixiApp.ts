@@ -48,10 +48,12 @@ export function spawnBox(x: number, y: number, width: number, height: number, is
 }
 
 export const creatorOptions = {
-    static: false
+    static: false,
+    restitution: 0
 }
 
 stage.on('pointerdown', (event: PIXI.InteractionEvent) => {
     const spawnPoint = event.data.getLocalPosition(stage);
-    spawnBox(spawnPoint.x, spawnPoint.y, 50, 50, creatorOptions.static);
+    const box = spawnBox(spawnPoint.x, spawnPoint.y, 50, 50, creatorOptions.static);
+    box.restitution = creatorOptions.restitution;
 });
